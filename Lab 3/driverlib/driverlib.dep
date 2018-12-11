@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3182076025</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\can.c</file>
+            <file>$PROJ_DIR$\fpu.c</file>
+            <file>$PROJ_DIR$\gpio.c</file>
+            <file>$PROJ_DIR$\hibernate.c</file>
+            <file>$PROJ_DIR$\adc.c</file>
+            <file>$PROJ_DIR$\crc.c</file>
+            <file>$PROJ_DIR$\cpu.c</file>
+            <file>$PROJ_DIR$\comp.c</file>
+            <file>$PROJ_DIR$\eeprom.c</file>
+            <file>$PROJ_DIR$\des.c</file>
+            <file>$PROJ_DIR$\emac.c</file>
+            <file>$PROJ_DIR$\epi.c</file>
+            <file>$PROJ_DIR$\i2c.c</file>
+            <file>$PROJ_DIR$\flash.c</file>
+            <file>$PROJ_DIR$\aes.c</file>
+            <file>$PROJ_DIR$\udma.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\emac.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\watchdog.__cstat.et</file>
+            <file>$PROJ_DIR$\joy.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\usb.__cstat.et</file>
+            <file>$PROJ_DIR$\timer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\fpu.__cstat.et</file>
+            <file>$PROJ_DIR$\shamd5.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\lcd.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\qei.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\aes.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\onewire.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\mpu.__cstat.et</file>
+            <file>$PROJ_DIR$\crc.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_ssi.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\joy.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\epi.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\hibernate.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\eeprom.__cstat.et</file>
+            <file>$PROJ_DIR$\..\inc\hw_sysctl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time32.h</file>
+            <file>$PROJ_DIR$\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\emac.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\systick.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\timer.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sysctl.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\uart.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\onewire.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\pwm.__cstat.et</file>
+            <file>$PROJ_DIR$\qei.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\comp.__cstat.et</file>
+            <file>$PROJ_DIR$\sw_crc.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\cpu.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\systick.__cstat.et</file>
+            <file>$PROJ_DIR$\..\inc\hw_aes.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\des.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\ssi.__cstat.et</file>
+            <file>$PROJ_DIR$\cpu.h</file>
+            <file>$PROJ_DIR$\gpio.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\emac.o</file>
+            <file>$PROJ_DIR$\pwm.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\interrupt.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sysexc.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\mpu.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\systick.h</file>
+            <file>$PROJ_DIR$\sysctl.h</file>
+            <file>$PROJ_DIR$\pin_map.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_onewire.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\crc.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\gpio.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\qei.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\cpu.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\fpu.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_sysexc.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\aes.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_nvic.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_can.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_emac.h</file>
+            <file>$PROJ_DIR$\ssi.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\i2c.o</file>
+            <file>$PROJ_DIR$\mpu.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\can.__cstat.et</file>
+            <file>$PROJ_DIR$\..\inc\hw_types.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sw_crc.o</file>
+            <file>$PROJ_DIR$\des.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_adc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\crc.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\interrupt.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\ssi.o</file>
+            <file>$PROJ_DIR$\hibernate.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\comp.o</file>
+            <file>$PROJ_DIR$\epi.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_ints.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\uart.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_gpio.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\joy.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\eeprom.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\lcd.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_qei.h</file>
+            <file>$PROJ_DIR$\debug.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_i2c.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\shamd5.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_ccm.h</file>
+            <file>$PROJ_DIR$\lcd.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\flash.__cstat.et</file>
+            <file>$PROJ_DIR$\..\inc\hw_uart.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sysexc.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sysctl.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\sw_crc.__cstat.et</file>
+            <file>$PROJ_DIR$\comp.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_udma.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\watchdog.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\timer.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_eeprom.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\epi.__cstat.et</file>
+            <file>$PROJ_DIR$\can.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_usb.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\hibernate.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\udma.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\udma.o</file>
+            <file>$PROJ_DIR$\watchdog.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\flash.o</file>
+            <file>$PROJ_DIR$\usb.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_timer.h</file>
+            <file>$PROJ_DIR$\flash.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_hibernate.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\eeprom.o</file>
+            <file>$PROJ_DIR$\fpu.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\adc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\inc\hw_flash.h</file>
+            <file>$PROJ_DIR$\onewire.h</file>
+            <file>$PROJ_DIR$\adc.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\des.o</file>
+            <file>$PROJ_DIR$\aes.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\shamd5.__cstat.et</file>
+            <file>$PROJ_DIR$\ewarm\Obj\can.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_des.h</file>
+            <file>$PROJ_DIR$\sysexc.c</file>
+            <file>$PROJ_DIR$\sw_crc.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$PROJ_DIR$\pwm.c</file>
+            <file>$PROJ_DIR$\uart.h</file>
+            <file>$PROJ_DIR$\shamd5.c</file>
+            <file>$PROJ_DIR$\onewire.c</file>
+            <file>$PROJ_DIR$\joy.c</file>
+            <file>$PROJ_DIR$\systick.c</file>
+            <file>$PROJ_DIR$\timer.c</file>
+            <file>$PROJ_DIR$\interrupt.c</file>
+            <file>$PROJ_DIR$\lcd.c</file>
+            <file>$PROJ_DIR$\ssi.c</file>
+            <file>$PROJ_DIR$\uart.c</file>
+            <file>$PROJ_DIR$\sysctl.c</file>
+            <file>$PROJ_DIR$\udma.c</file>
+            <file>$PROJ_DIR$\mpu.c</file>
+            <file>$PROJ_DIR$\qei.c</file>
+            <file>$PROJ_DIR$\usb.c</file>
+            <file>$PROJ_DIR$\watchdog.c</file>
+            <file>$PROJ_DIR$\i2c.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_comp.h</file>
+            <file>$PROJ_DIR$\interrupt.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\pwm.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_watchdog.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_shamd5.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\usb.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_pwm.h</file>
+            <file>$PROJ_DIR$\..\inc\hw_lcd.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\adc.o</file>
+            <file>$PROJ_DIR$\..\inc\hw_epi.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>IARCHIVE</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\can.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 77 95 75 76 35 83 120 104 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\fpu.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 21 99 72 61 142 75 83 133</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 97 95 76 35 83 104 55 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hibernate.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 146 86 36 131 95 35 83 104 92 166 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 87 95 76 83 35 137 104 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 107 76 83 29 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\cpu.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 21 99 72 61 142 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\comp.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 165 95 76 83 114 104 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\eeprom.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 118 135 95 35 83 104 130 166 63 100</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\des.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 143 95 76 83 104 85 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\emac.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 83 78 104 38 63 166 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\epi.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 174 95 76 35 83 104 94 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 105 95 76 35 83 104 164 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flash.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 135 95 35 83 104 130 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\aes.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 21 99 72 61 142 66 51 107 95 76 75 83 139 104 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sysexc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 35 73 83 104 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sw_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 21 99 72 61 142 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\pwm.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 171 35 83 104 166 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\shamd5.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 75 169 83 104 166 23</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\onewire.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 21 99 72 61 142 66 95 76 65 35 83 104 166 136 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\joy.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 88 86 76 137 55 64 63 148 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\systick.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 75 83 104 166 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 129 83 35 104 166 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\interrupt.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 75 83 54 104 166</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\lcd.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 21 99 72 61 142 66 76 83 95 172 166 63 108 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ssi.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 30 35 83 104 166 79</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 35 83 110 104 166 148</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\sysctl.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 75 35 83 135 54 104 166 63</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\udma.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 35 83 115 104 166 15</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\mpu.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 75 83 104 166 81</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\qei.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 103 83 35 104 166 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\usb.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 83 35 121 104 166 63 15 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\watchdog.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66 124 21 99 72 61 142 95 76 83 168 104 166 126</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>

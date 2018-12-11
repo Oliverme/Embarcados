@@ -1,0 +1,15 @@
+"D:\arm\bin\armproc.dll" 
+
+"D:\arm\bin\armlmiftdi.dll" 
+
+"C:\Users\R\Desktop\UTFPR\9 Periodo\Sistemas Embarcados\embarcados\Lab 3\blinky\ewarm\Exe\blinky.out" 
+
+--plugin="D:\arm\bin\armbat.dll" 
+
+--device_macro="D:\arm\config\debugger\TexasInstruments\TM4C129.dmac" 
+
+--flash_loader="D:\arm\config\flashloader\TexasInstruments\FlashTC4_NC.board" 
+
+
+
+
